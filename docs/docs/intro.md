@@ -2,46 +2,36 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Crypto Price Tracker
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to the Crypto Price Tracker documentation! This comprehensive guide will help you understand and work with our real-time cryptocurrency price tracking application.
 
-## Getting Started
+## Overview
 
-Get started by **creating a new site**.
+Crypto Price Tracker is a modern, full-stack application that provides real-time cryptocurrency price tracking for both web and mobile platforms. Built with React and React Native, it offers a seamless experience across all devices.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Key Features
 
-### What you'll need
+- **Real-time Price Updates**: Live cryptocurrency price updates using WebSocket connections
+- **Cross-platform Support**: Single codebase powering both web and mobile applications
+- **Advanced State Management**: Efficient state handling using React Query
+- **Responsive Design**: Beautiful, modern UI that works across all screen sizes
+- **Offline Support**: Caching and offline functionality for uninterrupted usage
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Documentation Structure
 
-## Generate a new site
+Our documentation is organized into several key sections:
 
-Generate a new Docusaurus site using the **classic template**.
+1. **Getting Started**: Setup guide for both web and mobile development environments
+2. **API Integration**: Details about our integration with CoinCap API
+3. **State Management**: In-depth explanation of our state management architecture
+4. **Challenges & Solutions**: Technical challenges we faced and how we solved them
 
-The classic template will automatically be added to your project after you run the command:
+## Quick Links
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+- [Setup Guide](./getting-started.md)
+- [API Documentation](./api-integration.md)
+- [State Management Guide](./state-management.md)
+- [Technical Challenges](./challenges-solutions.md)
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Select a section from the sidebar to begin exploring our documentation.

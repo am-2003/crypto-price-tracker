@@ -11,32 +11,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Real-Time Price Updates',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Get instant cryptocurrency price updates through WebSocket connections,
+        ensuring you never miss a market movement.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Smart Caching',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Efficient two-level caching system with <code>React Query</code> and local storage
+        for optimal performance and offline support.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Cross-Platform',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        One codebase, multiple platforms. Access your crypto portfolio seamlessly
+        on both web and mobile devices.
       </>
     ),
   },
