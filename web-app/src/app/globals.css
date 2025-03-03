@@ -6,19 +6,55 @@
 }
 
 :root {
-  --background: #ffffff;
+  --background: #fafafa;
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #0c0325;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+input {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid var(--foreground);
+}
+
+#menu {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.searchDiv {
+  display: flex;
+  flex-grow: 1;
+  gap: 0.5rem;
+}
+
+.loader {
+  width: 30px;
+  height: 30px;
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #3498db;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
